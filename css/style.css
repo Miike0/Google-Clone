@@ -1,3 +1,10 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
 :root {
     --font-color: #000000;
 }
@@ -36,4 +43,16 @@ header nav .nav-right_section {
 nav .nav-right_section a {
     margin-right: 10px;
     color: var(--font-color);
+}
+nav .nav-right_section .material-symbols-outlined {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+nav .nav-right_section img {
+    border-radius: 50%;
+    margin-left: 10px;
 }
