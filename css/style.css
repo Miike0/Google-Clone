@@ -31,6 +31,7 @@ header nav {
     display: flex;
     justify-content: flex-end;
     font-size: 1.6rem;
+    margin-top: 10px;
 }
 header nav .nav-right_section {
     width: 250px;
@@ -51,6 +52,8 @@ nav .nav-right_section .material-symbols-outlined {
     width: 25px;
     height: 25px;
     margin-left: 10px;
+    display: flex;
+    align-items: center;
 }
 nav .nav-right_section img {
     border-radius: 50%;
