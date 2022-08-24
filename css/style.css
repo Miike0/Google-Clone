@@ -7,6 +7,7 @@
 }
 :root {
     --font-color: #000000;
+    --border-color: #dfe1e5;
 }
 * {
     padding: 0;
@@ -41,6 +42,10 @@ header nav .nav-right_section {
     justify-content: center;
     align-items: center;
 }
+header nav .nav-right_gmail:hover, 
+.nav-right_images:hover {
+    text-decoration:underline;
+}
 nav .nav-right_section a {
     margin-right: 10px;
     color: var(--font-color);
@@ -60,10 +65,30 @@ nav .nav-right_section img {
     margin-left: 10px;
 }
 main {
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
 }
 main .main-logo {
     margin: 0 auto;
     margin-bottom: 35px;
+}
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+
 }
